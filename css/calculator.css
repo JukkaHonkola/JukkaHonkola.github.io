@@ -1,0 +1,55 @@
+body
+{
+    
+}
+.container {
+    width: 800px;
+}
+#total-score
+{
+    font-size: x-large;
+    font-style: italic;
+    padding-bottom: 25px;
+    background: #3cb480;
+}
+.calculator {
+    border: none;
+}
+table {
+    table-layout: fixed;
+    width: 400px;
+}
+.calculator-row {
+    text-align: center;
+    background-color: #CCCCCC;
+    background-image: -webkit-linear-gradient(top, #CCCCCC, #666666); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(top, #CCCCCC, #666666); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(top, #CCCCCC, #666666); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(top, #CCCCCC, #666666); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to bottom, #CCCCCC, #666666); /* Standard syntax; must be last */
+    font-family: Arial;
+    font-size: large;
+}
+    .calculator-row > td {
+        width: 20px;
+        height: 60px;
+    }
+    .calculator-row > .pressed {
+	    background-color: #666666;
+    }
+.question-table-column {
+    float: right;
+}
+#question-table {
+    font-size: x-large;
+    font-style: italic;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    border: thin;
+}
+#question-total {
+    background-color: #3cb480;
+}
+.calculator-column {
+    float: left;
+}

@@ -1,0 +1,136 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/css/calculator.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/calculator.js"></script>
+  <title>Hello World!</title>
+  <script type="text/javascript">
+    $(document).ready(function() {
+    $("#0 > td").mouseup(function() {
+    addQuestionScore($(this).html());
+    $(this).removeClass("pressed")
+    //alert("Button " + $(this).html() + " pressed");
+    }).mousedown(function(){
+    $(this).addClass("pressed");
+    });
+    $("#1 > td").mouseup(function() {
+    addQuestionScore($(this).html());
+    $(this).removeClass("pressed")
+    //alert("Button " + $(this).html() + " pressed");
+    }).mousedown(function(){
+    $(this).addClass("pressed");
+    });
+    $("#2 > td").mouseup(function() {
+    addQuestionScore($(this).html());
+    $(this).removeClass("pressed")
+    //alert("Button " + $(this).html() + " pressed");
+    }).mousedown(function(){
+    $(this).addClass("pressed");
+    });
+    $("#3 > td").mouseup(function() {
+    addQuestionScore($(this).html());
+    $(this).removeClass("pressed")
+    //alert("Button " + $(this).html() + " pressed");
+    }).mousedown(function(){
+    $(this).addClass("pressed");
+    });
+    $("#4 > td").mouseup(function() {
+    addQuestionScore($(this).html());
+    $(this).removeClass("pressed")
+    //alert("Button " + $(this).html() + " pressed");
+    }).mousedown(function(){
+    $(this).addClass("pressed");
+    });
+    $("#5 > td").mouseup(function() {
+    addQuestionScore($(this).html());
+    $(this).removeClass("pressed")
+    //alert("Button " + $(this).html() + " pressed");
+    }).mousedown(function(){
+    $(this).addClass("pressed");
+    });
+    $("#6 > td").mouseup(function() {
+    addQuestionScore($(this).html());
+    $(this).removeClass("pressed")
+    //alert("Button " + $(this).html() + " pressed");
+    }).mousedown(function(){
+    $(this).addClass("pressed");
+    });
+    $("#7 > td").mouseup(function() {
+    addQuestionScore($(this).html());
+    $(this).removeClass("pressed")
+    //alert("Button " + $(this).html() + " pressed");
+    }).mousedown(function(){
+    $(this).addClass("pressed");
+    });
+    $("#8 > td").mouseup(function() {
+    addQuestionScore($(this).html());
+    $(this).removeClass("pressed")
+    //alert("Button " + $(this).html() + " pressed");
+    }).mousedown(function(){
+    $(this).addClass("pressed");
+    });
+    $("#9 > td").mouseup(function() {
+    addQuestionScore($(this).html());
+    $(this).removeClass("pressed")
+    //alert("Button " + $(this).html() + " pressed");
+    }).mousedown(function(){
+    $(this).addClass("pressed");
+    });
+    $("#10 > td").mouseup(function() {
+    addQuestionScore($(this).html());
+    $(this).removeClass("pressed")
+    //alert("Button " + $(this).html() + " pressed");
+    }).mousedown(function(){
+    $(this).addClass("pressed");
+    });
+    });
+    </script>
+</head>
+
+<body>
+<div class="container">
+  <div id="total-score">0</div>
+
+    <div class="question-table-column">
+        <table id="question-table"></table>
+    </div>
+    <div class="calculator-column">
+      <table class="calculator" border=1>
+	<tr class="calculator-row" id="0">
+	  <td>&nbsp;</td><td>0</td><td>+</td><td>½</td>
+	  </tr>
+	<tr class="calculator-row" id="1">
+	  <td>1-</td><td>1</td><td>1+</td><td>1½</td>
+	  </tr>
+	<tr class="calculator-row" id="2">
+	  <td>2-</td><td>2</td><td>2+</td><td>2½</td>
+	  </tr>
+	<tr class="calculator-row" id="3">
+	  <td>3-</td><td>3</td><td>3+</td><td>3½</td>
+	  </tr>
+	<tr class="calculator-row" id="4">
+	  <td>4-</td><td>4</td><td>4+</td><td>4½</td>
+	  </tr>
+	<tr class="calculator-row" id="5">
+	  <td>5-</td><td>5</td><td>5+</td><td>5½</td>
+	  </tr>
+	<tr class="calculator-row" id="6">
+	  <td>6-</td><td>6</td><td>6+</td><td>6½</td>
+	  </tr>
+	<tr class="calculator-row" id="7">
+	  <td>7-</td><td>7</td><td>7+</td><td>7½</td>
+	  </tr>
+	<tr class="calculator-row" id="8">
+	  <td>8-</td><td>8</td><td>8+</td><td>8½</td>
+	  </tr>
+	<tr class="calculator-row" id="9">
+	  <td>9-</td><td>9</td><td>9+</td><td>9½</td>
+	  </tr>
+	<tr class="calculator-row" id="10">
+	  <td>10-</td><td>10</td><td>10+</td><td>10½</td>
+	  </tr>
+	</table>
+    </div>
+</div>
+</body>
+</html>
