@@ -32,7 +32,7 @@ table {
 }
     .calculator-row > td {
         width: 20px;
-        height: 60px;
+        height: 40px;
     }
     .calculator-row > .pressed {
 	    background-color: #666666;
